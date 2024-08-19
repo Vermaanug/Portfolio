@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-[#363636] lg:bg-black p-4 z-50">
+    <header className=" fixed top-0 left-0 right-0 bg-[#363636]  lg:bg-black p-4 z-50 ">
       <div className="bg-[#363636] rounded-lg p-1  justify-between lg:w-4/6 flex mx-auto  items-center">
         <div className="w-10 ml-6 cursor-pointer">
           <img src="/Facelogo.png" alt="Logo" className="rounded-full" />
