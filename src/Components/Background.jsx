@@ -90,11 +90,13 @@ const Background = () => {
 
   if (init) {
     return (
-      <Particles
+      <div className="absolute inset-0 z-0">
+        <Particles
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}
       />
+      </div>
     );
   }
 

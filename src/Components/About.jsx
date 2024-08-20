@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-[#1C1C1C]">
-      <div className="flex flex-col py-10 md:flex-row p-4 xl:gap-6 xl:py-28">
+    <section id="about" className="bg-[#1C1C1C] relative z-10">
+      <div className="flex flex-col  py-10 md:flex-row p-4 xl:gap-6 xl:py-28">
         <div className=" flex-1 md:p-4 ">
           <img
             src="/LaptopBoy.png"

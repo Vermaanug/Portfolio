@@ -2,8 +2,8 @@ import React from "react";
 
 const Project = () => {
   return (
-    <section className="bg-black flex justify-center ">
-      <div className="mx-2 my-16 py-20 flex flex-col gap-6 max-w-full lg:max-w-6xl  ">
+    <section id="project" className=" relative z-10 bg-black flex justify-center ">
+      <div className="mx-2 mt-16  py-20 flex flex-col gap-6 max-w-full lg:max-w-6xl lg:mb-16  ">
         <article className="p-2">
           <p className="font-nunito font-semibold uppercase  text-[#66FFCC] tracking-widest text-sm ">
             My Projects
@@ -38,7 +38,7 @@ const Project = () => {
                 enabling users to find their favorite movies easily.
               </p>
               <ul className="flex flex-wrap items-center gap-4 text-sm text-black font-serif font-medium mt-2">
-                <li className="bg-[#8C8C8C] text-center rounded-sm px-2 py-[1px]">
+                <li className="bg-[#8C8C8C] text-center  rounded-sm px-2 py-[1px]">
                   React Js
                 </li>
                 <li className="bg-[#8C8C8C] text-center rounded-sm px-2 py-[1px]">
@@ -58,10 +58,10 @@ const Project = () => {
                 </li>
               </ul>
               <ul className="flex flex-wrap items-center gap-10 py-2 px-1">
-                <li className="font-nunito font-semibold text-white hover:text-[#66FFCC]">
+                <li className="font-nunito font-semibold text-white hover:text-[#66FFCC] hover:underline underline-offset-4 decoration-2 hover:transition-all duration-300">
                   <a href="https://netflixfr.onrender.com/">Live Site →</a>
                 </li>
-                <li className="font-nunito font-semibold text-white hover:text-[#66FFCC] ">
+                <li className="font-nunito font-semibold text-white hover:text-[#66FFCC] hover:underline underline-offset-4 decoration-2 hover:transition-all duration-300 ">
                   <a href="https://github.com/Vermaanug/Netflix/tree/main">Github →</a>
                 </li>
               </ul>
@@ -110,7 +110,7 @@ const Project = () => {
               </ul>
               <ul className="flex flex-wrap items-center gap-10 py-2 px-1">
 
-                <li className="font-nunito font-semibold text-white hover:text-[#66FFCC] ">
+                <li className="font-nunito font-semibold text-white hover:text-[#66FFCC] hover:underline underline-offset-4 decoration-2 hover:transition-all duration-300">
                   <a href="#">Github →</a>
                 </li>
               </ul>

@@ -3,14 +3,16 @@ import Background from "./Background";
 import About from "./About";
 import Skills from "./Skills";
 import Project from "./Project";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 const Body = () => {
   return (
     <main >
+      <section className=" p-8 bg-black h-screen ">
       <Background />
-      <section className="p-8 bg-black h-screen ">
         <div className="text-center mt-48 lg:flex lg:text-left xl:w-2/3 m-auto 2xl:mt-72 ">
-          <div className="p-4">
+          <div className="p-4 ">
             <p className="font-nunito uppercase font-semibold text-[#66FFCC] ml-4 tracking-widest">
               hi there , I am
             </p>
@@ -18,14 +20,14 @@ const Body = () => {
               Anurag Verma
             </h2>
             <div className="flex flex-col justify-center items-center mt-1 md:p-1 lg:items-start">
-              <p className="text-white font-nunito opacity-75 md:w-2/3">
+              <p className="text-white font-nunito opacity-95 md:w-2/3">
                 A Mumbai-based self-taught Full Stack Developer specializing in
                 creating unique digital experiences through a seamless blend of
                 frontend and backend skills.
               </p>
               <div className="mt-5 w-28 p-2 border-2 text-center border-[#66FFCC] text-[#66FFCC] cursor-pointer hover:bg-[#66FFCC]  hover:text-black ease-in-out duration-300 hover:scale-105">
                 <a
-                  href="#"
+                  href="mailto:Vermaanug1974@gmail.com"
                   className="font-nunito uppercase font-semibold tracking-widest "
                 >
                   Hire Me
@@ -33,7 +35,7 @@ const Body = () => {
               </div>
             </div>
           </div>
-          <div className="hidden lg:block ">
+          <div className="hidden lg:block  ">
             <img src="/Coding.png" alt="Boy Image" className="w-full h-full object-cover "/>
           </div>
         </div>
@@ -41,6 +43,8 @@ const Body = () => {
       <About />
       <Skills />
       <Project />
+      <Contact />
+      <Footer />
     </main>
   );
 };
