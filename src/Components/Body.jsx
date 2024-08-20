@@ -1,22 +1,23 @@
 import React from "react";
 import Background from "./Background";
 import About from "./About";
+import Skills from "./Skills";
 
 const Body = () => {
   return (
     <main >
       <Background />
-      <section className="p-8 bg-black h-svh ">
-        <div className="text-center mt-48 lg:flex lg:text-left xl:w-2/3 m-auto lg:mt-60 ">
+      <section className="p-8 bg-black h-screen ">
+        <div className="text-center mt-48 lg:flex lg:text-left xl:w-2/3 m-auto 2xl:mt-72 ">
           <div className="p-4">
             <p className="font-nunito uppercase font-semibold text-[#66FFCC] ml-4 tracking-widest">
-              hi there , I'm
+              hi there , I am
             </p>
-            <h2 className="font-dmserif font-bold uppercase text-white tracking-wider text-[32px] md:text-5xl xl:text-7xl">
+            <h2 className="font-dmserif font-bold uppercase text-white tracking-wider text-[32px] md:text-5xl xl:text-6xl 2xl:text-7xl">
               Anurag Verma
             </h2>
             <div className="flex flex-col justify-center items-center mt-1 md:p-1 lg:items-start">
-              <p className="text-white font-nunito md:w-2/3">
+              <p className="text-white font-nunito opacity-85 md:w-2/3">
                 A Mumbai-based self-taught Full Stack Developer specializing in
                 creating unique digital experiences through a seamless blend of
                 frontend and backend skills.
@@ -37,6 +38,7 @@ const Body = () => {
         </div>
       </section>
       <About />
+      <Skills />
     </main>
   );
 };
