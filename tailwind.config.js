@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         dmserif: ['DM Serif Text', 'serif'],
         nunito: ['Nunito', 'sans-serif'],
+        roboto: ['"Roboto"', 'sans-serif'],
+      },
+      screens: {
+        'custom-lg': '1175px', 
       },
     },
   },
