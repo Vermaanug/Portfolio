@@ -2,6 +2,7 @@ import React from "react";
 import Background from "./Background";
 import About from "./About";
 import Skills from "./Skills";
+import Project from "./Project";
 
 const Body = () => {
   return (
@@ -17,7 +18,7 @@ const Body = () => {
               Anurag Verma
             </h2>
             <div className="flex flex-col justify-center items-center mt-1 md:p-1 lg:items-start">
-              <p className="text-white font-nunito opacity-85 md:w-2/3">
+              <p className="text-white font-nunito opacity-75 md:w-2/3">
                 A Mumbai-based self-taught Full Stack Developer specializing in
                 creating unique digital experiences through a seamless blend of
                 frontend and backend skills.
@@ -39,6 +40,7 @@ const Body = () => {
       </section>
       <About />
       <Skills />
+      <Project />
     </main>
   );
 };

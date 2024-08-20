@@ -8,7 +8,7 @@ const About = () => {
           <img
             src="/LaptopBoy.png"
             alt="Boy"
-            className="w-full h-full object-cover lg:w-96 p-5 ml-auto"
+            className="w-full h-full object-cover xl:w-96 xl:pt-6 xl:ml-auto"
           />
         </div>
         <div className="pt-10 flex-1 md:p-4 lg:pt-14 ">
