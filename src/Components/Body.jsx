@@ -1,17 +1,21 @@
-import React from "react";
+import React  from "react";
 import Background from "./Background";
 import About from "./About";
 import Skills from "./Skills";
 import Project from "./Project";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import useAOS from "../Hooks/useAos.jsx"
 
 const Body = () => {
+
+  useAOS({ duration: 1000 });
+
   return (
-    <main >
+    <main>
       <section className=" p-8 bg-black h-screen ">
-      <Background />
-        <div className="text-center mt-48 lg:flex lg:text-left xl:w-2/3 m-auto 2xl:mt-72 ">
+        <Background />
+        <div className="text-center mt-48 lg:flex lg:text-left xl:w-2/3 m-auto 2xl:mt-72" data-aos="fade-right" >
           <div className="p-4 ">
             <p className="font-nunito uppercase font-semibold text-[#66FFCC] ml-4 tracking-widest">
               hi there , I am
@@ -36,7 +40,11 @@ const Body = () => {
             </div>
           </div>
           <div className="hidden lg:block  ">
-            <img src="/Coding.png" alt="Boy Image" className="w-full h-full object-cover "/>
+            <img
+              src="/Coding.png"
+              alt="Boy Image"
+              className="w-full h-full object-cover "
+            />
           </div>
         </div>
       </section>

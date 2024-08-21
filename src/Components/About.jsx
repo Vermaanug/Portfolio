@@ -1,9 +1,13 @@
 import React from "react";
+import useAOS from "../Hooks/useAos.jsx"
 
 const About = () => {
+
+  useAOS({ duration: 1000 });
+
   return (
     <section id="about" className="bg-[#1C1C1C] relative z-10">
-      <div className="flex flex-col  py-10 md:flex-row p-4 xl:gap-6 xl:py-28">
+      <div className="flex flex-col  py-10 md:flex-row p-4 xl:gap-6 xl:py-28" data-aos="fade-up">
         <div className=" flex-1 md:p-4 ">
           <img
             src="/LaptopBoy.png"

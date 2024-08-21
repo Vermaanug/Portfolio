@@ -1,9 +1,13 @@
 import React from "react";
+import useAOS from "../Hooks/useAos.jsx"
 
 const Project = () => {
+
+  useAOS({ duration: 1000 });
+
   return (
     <section id="project" className=" relative z-10 bg-black flex justify-center ">
-      <div className="mx-2 mt-16  py-20 flex flex-col gap-6 max-w-full lg:max-w-6xl lg:mb-16  ">
+      <div className="mx-2 mt-16  py-20 flex flex-col gap-6 max-w-full lg:max-w-6xl lg:mb-16  " data-aos="fade-up">
         <article className="p-2">
           <p className="font-nunito font-semibold uppercase  text-[#66FFCC] tracking-widest text-sm ">
             My Projects
@@ -17,7 +21,7 @@ const Project = () => {
           </p>
         </article>
         <section className="p-2 flex flex-col gap-36 ">
-          <article className="flex flex-col gap-6 sm:flex-row">
+          <article className="flex flex-col gap-6 sm:flex-row" data-aos="fade-up">
             <a href="https://netflixfr.onrender.com/">
               <img
                 src="/Netflix.jpeg"
@@ -67,7 +71,7 @@ const Project = () => {
               </ul>
             </div>
           </article>
-          <article className="flex flex-col gap-6 sm:flex-row-reverse">
+          <article className="flex flex-col gap-6 sm:flex-row-reverse" data-aos="fade-up">
             <a href="#">
               <img
                 src="/Book.jpeg"
