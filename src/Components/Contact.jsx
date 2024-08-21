@@ -6,7 +6,7 @@ const Contact = () => {
   useAOS({ duration: 1000 });
 
   return (
-    <section id="contact" className="relative z-10 bg-black flex justify-center custom-lg:-ml-28 2xl:-ml-72" >
+    <section id="contact" className="relative z-10 bg-black flex justify-center custom-lg:-ml-28 xl:-ml-72 2xl:-ml-72" >
       <div className="mx-2 flex flex-col gap-6 max-w-full lg:mb-10  " data-aos="fade-up">
         <div className="p-2">
           <p className="font-nunito font-semibold uppercase  text-[#66FFCC] tracking-widest text-[11px] lg:text-sm ">
