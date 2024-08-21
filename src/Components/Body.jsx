@@ -13,7 +13,7 @@ const Body = () => {
 
   return (
     <main>
-      <section className=" p-8 bg-black h-screen md:max-h-[600px] lg:max-h-[1200px]">
+      <section id="top" className=" p-8 bg-black h-screen md:max-h-[600px] lg:max-h-[1200px]">
         <Background />
         <div className="text-center mt-48  lg:flex lg:text-left xl:w-2/3 m-auto 2xl:mt-72" data-aos="fade-right" >
           <div className="p-4 ">

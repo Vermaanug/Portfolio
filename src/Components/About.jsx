@@ -16,7 +16,7 @@ const About = () => {
           />
         </div>
         <div className="pt-10 flex-1 md:p-4 lg:pt-14 ">
-        <h2 className="font-serif font-bold uppercase text-white tracking-wide text-[32px]  ml-3">
+        <h2 className="font-dmserif font-bold uppercase text-white tracking-wide text-[32px]  ml-3">
             A bit About Me
           </h2>
           <p className="font-nunito uppercase font-semibold text-[#66FFCC] tracking-widest ml-3 text-sm mt-4">
