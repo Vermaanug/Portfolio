@@ -101,7 +101,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      <Nav isMenuOpen={isMenuOpen} />
+      <Nav isMenuOpen={isMenuOpen} toggleMenu={toggleMenu}/>
     </header>
   );
 };

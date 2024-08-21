@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-const Nav = ({ isMenuOpen }) => {
+const Nav = ({ isMenuOpen, toggleMenu }) => {
+  
+  const handleClick = () => {
+    toggleMenu();
+  };
+
   return (
     <div className={`lg:hidden ${isMenuOpen ? "block" : "hidden"} `}>
       <div>
@@ -52,22 +57,46 @@ const Nav = ({ isMenuOpen }) => {
         <ul>
           <ul className="flex flex-col justify-center items-center text-white mt-8">
             <li className=" font-nunito font-semibold cursor-pointer hover:text-green-500 hover:underline underline-offset-4 decoration-2 hover:transition-all duration-300">
-              <Link to="about" smooth={true} duration={500} offset={-50}>
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
+                offset={-50}
+                onClick={handleClick}
+              >
                 About
               </Link>
             </li>
             <li className=" mt-8 font-nunito font-semibold cursor-pointer hover:text-green-500 hover:underline underline-offset-4 decoration-2 hover:transition-all duration-300 ">
-              <Link to="skills" smooth={true} duration={500} offset={-50}>
+              <Link
+                to="skills"
+                smooth={true}
+                duration={500}
+                offset={-50}
+                onClick={handleClick}
+              >
                 Skills
               </Link>
             </li>
             <li className=" mt-8 font-nunito  font-semibold cursor-pointer hover:text-green-500 hover:underline underline-offset-4 decoration-2 hover:transition-all duration-300">
-              <Link to="project" smooth={true} duration={500} offset={-50}>
+              <Link
+                to="project"
+                smooth={true}
+                duration={500}
+                offset={-50}
+                onClick={handleClick}
+              >
                 Project
               </Link>
             </li>
             <li className="mt-8 mb-8 font-nunito  font-semibold cursor-pointer hover:text-green-500 hover:underline underline-offset-4 decoration-2 hover:transition-all duration-300 ">
-              <Link to="contact" smooth={true} duration={500} offset={-50}>
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                offset={-50}
+                onClick={handleClick}
+              >
                 Contact
               </Link>
             </li>
