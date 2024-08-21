@@ -22,16 +22,16 @@ const Skills = () => {
           </p>
         </article>
         <ul className="p-2 grid grid-cols-2 gap-8 text-black  font-serif text-sm font-semibold tracking-wide md:grid-cols-4 " data-aos="fade-up">
-          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-2">React Js</li>
-          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-2">Tailwind CSS</li>
-          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-2">JavaScript</li>
-          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-2">Node Js</li>
-          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-2">Express Js</li>
-          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-2">MongoDB</li>
-          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-2">Git & Github </li>
-          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-2">Python</li>
-          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-2">C++</li>
-          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-2">SQL</li>
+          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-[6px]">React Js</li>
+          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-[6px]">Tailwind CSS</li>
+          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-[6px]">JavaScript</li>
+          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-[6px]">Node Js</li>
+          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-[6px]">Express Js</li>
+          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-[6px]">MongoDB</li>
+          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-[6px]">Git & Github </li>
+          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-[6px]">Python</li>
+          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-[6px]">C++</li>
+          <li className="bg-[#ffffff] text-center  rounded-sm px-2 py-[1px] lg:py-[6px]">SQL</li>
         </ul>
       </div>
     </section>
